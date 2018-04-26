@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<project default="" >
+  <property name="version.major"  value="1"  />
+  <property name="version.minor"  value="0" />
+  <property name="version.hotfix" value="0"  />
+</project>
