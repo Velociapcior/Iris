@@ -6,9 +6,9 @@ class Layout extends React.Component {
     render() {
         return (
             <div>
-                <div>
-                    <Link to='/'>Home</Link>
-                </div>
+                <nav className="navbar has-background-light" role="navigation">
+                    <Link className="navbar-item" to='/'>Home</Link>
+                </nav>
                 <div className="container">
                     <Switch>
                         {this.props.children}
@@ -19,4 +19,4 @@ class Layout extends React.Component {
     }
 }
 
-export default Layout;
+export default Layout
