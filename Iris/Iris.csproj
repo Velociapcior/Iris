@@ -166,7 +166,6 @@
     <Folder Include="App\Components\Controls\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\Converters\" />
-    <Folder Include="Scripts\Models\" />
     <Folder Include="Services\DTO\" />
   </ItemGroup>
   <PropertyGroup>
