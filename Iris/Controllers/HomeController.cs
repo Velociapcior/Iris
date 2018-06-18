@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using Iris.Services.Interfaces;
 
 namespace Iris.Controllers
 {
-    public class HomeController : Controller
+  public class HomeController : Controller
+  {
+    private readonly ISessionStateServie _sessionStateServie;
+
+    public HomeController(ISessionStateServie sessionStateServie)
     {
-        // GET: Home
-        public ActionResult Index()
-        {
-            return View();
-        }
+      _sessionStateServie = sessionStateServie;
     }
+
+    // GET: Home
+    public ActionResult Index()
+    {
+
+      return View();
+    }
+  }
 }
