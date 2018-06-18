@@ -13,10 +13,6 @@ namespace Iris.DependencyInjection.Installers
       container.Register(Component.For<ISessionStateServie>()
         .ImplementedBy<SessionStateService>()
         .LifestyleTransient());
-
-      container.Register(Component.For<IProductsService>()
-        .ImplementedBy<ProductsService>()
-        .LifestyleTransient());
     }
   }
 }
