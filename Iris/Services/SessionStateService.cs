@@ -4,7 +4,7 @@ using static System.Web.HttpContext;
 
 namespace Iris.Services
 {
-  public class SessionStateService : ISessionStateServie
+  public class SessionStateService : ISessionStateService
   {
   }
 }

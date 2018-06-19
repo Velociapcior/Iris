@@ -7,9 +7,9 @@ namespace Iris.Controllers
 {
   public class HomeController : Controller
   {
-    private readonly ISessionStateServie _sessionStateServie;
+    private readonly ISessionStateService _sessionStateServie;
 
-    public HomeController(ISessionStateServie sessionStateServie)
+    public HomeController(ISessionStateService sessionStateServie)
     {
       _sessionStateServie = sessionStateServie;
     }

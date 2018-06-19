@@ -2,7 +2,7 @@
 
 namespace Iris.Services.Interfaces
 {
-  public interface ISessionStateServie
+  public interface ISessionStateService
   {
   }
 }

@@ -33,5 +33,10 @@ namespace Iris
       var controllerFactory = new WindsorControllerFactory(container.Kernel);
       ControllerBuilder.Current.SetControllerFactory(controllerFactory);
     }
+
+    protected void Application_End()
+    {
+      container.Dispose();
+    }
   }
 }
